@@ -1,0 +1,398 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Sanjana S.D - BCA Student and Aspiring Full-Stack Developer Portfolio" />
+  <title>Sanjana S.D | Developer Portfolio</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <div class="background-glow glow-one"></div>
+  <div class="background-glow glow-two"></div>
+
+  <header class="header">
+    <nav class="navbar container">
+      <a href="#home" class="logo">S<span>.</span>Sanjana</a>
+
+      <button class="menu-toggle" id="menuToggle"
+        aria-label="Toggle navigation" aria-expanded="false">
+        <i class="fa-solid fa-bars"></i>
+      </button>
+
+      <div class="nav-links" id="navLinks">
+        <a href="#home" class="nav-link active">Home</a>
+        <a href="#about" class="nav-link">About</a>
+        <a href="#education" class="nav-link">Education</a>
+        <a href="#skills" class="nav-link">Skills</a>
+        <a href="#projects" class="nav-link">Projects</a>
+        <a href="#contact" class="nav-link">Contact</a>
+        <button id="themeToggle" class="theme-toggle" aria-label="Switch theme">
+          <i class="fa-solid fa-moon"></i>
+        </button>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <!-- HOME -->
+    <section class="hero section container" id="home">
+      <div class="hero-content">
+        <div class="availability">
+          <span class="status-dot"></span>
+          BCA STUDENT · OPEN TO LEARNING
+        </div>
+
+        <p class="eyebrow">HELLO, I'M</p>
+        <h1>Sanjana <span class="gradient-text">S.D</span></h1>
+
+        <h2 class="hero-subtitle">
+          BCA Student &amp;<br>
+          <span class="gradient-text">Aspiring Full-Stack Developer</span>
+        </h2>
+
+        <p class="hero-description">
+          I am a passionate Computer Applications student who enjoys
+          building websites, learning new technologies, and turning
+          creative ideas into useful digital experiences.
+        </p>
+
+        <div class="hero-buttons">
+          <a href="#projects" class="btn btn-primary">
+            Explore My Work <i class="fa-solid fa-arrow-right"></i>
+          </a>
+          <a href="#contact" class="btn btn-outline">
+            <i class="fa-regular fa-envelope"></i> Contact Me
+          </a>
+        </div>
+
+        <div class="social-links">
+          <a href="https://github.com/" target="_blank" rel="noopener noreferrer"
+             aria-label="GitHub profile" title="Add your GitHub URL">
+            <i class="fa-brands fa-github"></i>
+          </a>
+          <a href="https://www.linkedin.com/" target="_blank" rel="noopener noreferrer"
+             aria-label="LinkedIn profile" title="Add your LinkedIn URL">
+            <i class="fa-brands fa-linkedin-in"></i>
+          </a>
+          <a href="mailto:sanjanasd666@gmail.com" aria-label="Send email">
+            <i class="fa-regular fa-envelope"></i>
+          </a>
+        </div>
+      </div>
+
+      <div class="hero-visual">
+        <div class="photo-frame">
+          <div class="photo-decoration"></div>
+          <img
+            src="profile.jpg"
+            alt="Sanjana S.D professional profile"
+            class="profile-image"
+            onerror="this.style.display='none';document.getElementById('photoFallback').style.display='flex';"
+          />
+          <div class="photo-fallback" id="photoFallback" style="display:none">
+            <i class="fa-solid fa-user-graduate"></i>
+            <span>Add profile.jpg</span>
+          </div>
+          <div class="photo-label">
+            <span class="photo-label-icon"><i class="fa-solid fa-code"></i></span>
+            <div>
+              <strong>Future Developer</strong>
+              <small>Learning · Building · Growing</small>
+            </div>
+          </div>
+        </div>
+
+        <div class="floating-card card-code">
+          <i class="fa-solid fa-code"></i>
+          <span>Web Development</span>
+        </div>
+        <div class="floating-card card-student">
+          <i class="fa-solid fa-graduation-cap"></i>
+          <span>BCA · III Year</span>
+        </div>
+      </div>
+
+      <a href="#about" class="scroll-indicator">
+        <span>SCROLL TO EXPLORE</span>
+        <i class="fa-solid fa-arrow-down"></i>
+      </a>
+    </section>
+
+    <!-- ABOUT -->
+    <section class="section container" id="about">
+      <div class="section-heading">
+        <p class="eyebrow">GET TO KNOW ME</p>
+        <h2>About <span class="gradient-text">Me</span></h2>
+        <p>A little introduction about who I am and what I do.</p>
+      </div>
+
+      <div class="about-grid">
+        <div class="glass-card about-card">
+          <div class="icon-box"><i class="fa-regular fa-user"></i></div>
+          <h3>Who I Am</h3>
+          <p>
+            My name is Sanjana S.D. I am pursuing a Bachelor of Computer
+            Applications (BCA), III Year, at S.T.G First Grade College
+            under Mandya University. I am interested in web development,
+            programming, and creating user-friendly websites.
+          </p>
+        </div>
+
+        <div class="glass-card about-card">
+          <div class="icon-box"><i class="fa-solid fa-laptop-code"></i></div>
+          <h3>My Goal</h3>
+          <p>
+            My goal is to become a skilled full-stack developer.
+            I am continuously improving my coding knowledge, practicing
+            projects, and learning how frontend and backend technologies
+            work together.
+          </p>
+        </div>
+      </div>
+
+      <div class="quick-facts">
+        <div class="fact">
+          <i class="fa-solid fa-location-dot"></i>
+          <div><small>Location</small><strong>Mandya, Karnataka</strong></div>
+        </div>
+        <div class="fact">
+          <i class="fa-solid fa-graduation-cap"></i>
+          <div><small>Education</small><strong>BCA · III Year</strong></div>
+        </div>
+        <div class="fact">
+          <i class="fa-regular fa-envelope"></i>
+          <div><small>Email</small><strong>sanjanasd666@gmail.com</strong></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- EDUCATION -->
+    <section class="section container" id="education">
+      <div class="section-heading">
+        <p class="eyebrow">MY ACADEMIC JOURNEY</p>
+        <h2>My <span class="gradient-text">Education</span></h2>
+        <p>Building a strong foundation in computer applications.</p>
+      </div>
+
+      <div class="timeline">
+        <div class="timeline-item">
+          <div class="timeline-marker"><i class="fa-solid fa-graduation-cap"></i></div>
+          <div class="glass-card timeline-card">
+            <span class="timeline-date">CURRENTLY PURSUING</span>
+            <h3>Bachelor of Computer Applications (BCA)</h3>
+            <p class="institution">S.T.G First Grade College</p>
+            <p>Mandya University · III Year</p>
+            <div class="tag-list">
+              <span class="tag">Programming</span>
+              <span class="tag">Database Management</span>
+              <span class="tag">Web Development</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SKILLS -->
+    <section class="section container" id="skills">
+      <div class="section-heading">
+        <p class="eyebrow">WHAT I'M LEARNING</p>
+        <h2>My <span class="gradient-text">Skills</span></h2>
+        <p>Technologies and concepts I am developing my knowledge in.</p>
+      </div>
+
+      <div class="skills-grid">
+        <div class="glass-card skill-card">
+          <div class="skill-icon html-icon"><i class="fa-brands fa-html5"></i></div>
+          <h3>HTML5</h3><p>Web page structure</p>
+        </div>
+        <div class="glass-card skill-card">
+          <div class="skill-icon css-icon"><i class="fa-brands fa-css3-alt"></i></div>
+          <h3>CSS3</h3><p>Styling and layouts</p>
+        </div>
+        <div class="glass-card skill-card">
+          <div class="skill-icon js-icon"><i class="fa-brands fa-js"></i></div>
+          <h3>JavaScript</h3><p>Interactive websites</p>
+        </div>
+        <div class="glass-card skill-card">
+          <div class="skill-icon node-icon"><i class="fa-brands fa-node-js"></i></div>
+          <h3>Node.js</h3><p>Backend fundamentals</p>
+        </div>
+        <div class="glass-card skill-card">
+          <div class="skill-icon db-icon"><i class="fa-solid fa-database"></i></div>
+          <h3>MongoDB</h3><p>Database fundamentals</p>
+        </div>
+        <div class="glass-card skill-card">
+          <div class="skill-icon git-icon"><i class="fa-brands fa-github"></i></div>
+          <h3>Git &amp; GitHub</h3><p>Version control basics</p>
+        </div>
+      </div>
+      <p class="note">Update this section to reflect your actual skills and experience.</p>
+    </section>
+
+    <!-- PROJECTS -->
+    <section class="section container" id="projects">
+      <div class="section-heading">
+        <p class="eyebrow">WHAT I'M BUILDING</p>
+        <h2>Featured <span class="gradient-text">Projects</span></h2>
+        <p>Some projects you can develop and showcase in your portfolio.</p>
+      </div>
+
+      <div class="projects-grid">
+        <article class="glass-card project-card">
+          <div class="project-visual visual-purple">
+            <i class="fa-solid fa-id-card"></i>
+            <span class="project-number">01</span>
+          </div>
+          <div class="project-body">
+            <span class="project-type">PERSONAL WEBSITE</span>
+            <h3>Personal Portfolio</h3>
+            <p>A responsive website showcasing my introduction, education,
+              technical skills, projects, and contact information.</p>
+            <div class="tag-list">
+              <span class="tag">HTML</span><span class="tag">CSS</span>
+              <span class="tag">JavaScript</span>
+            </div>
+            <a href="#contact" class="project-link">Discuss this project
+              <i class="fa-solid fa-arrow-up-right-from-square"></i>
+            </a>
+          </div>
+        </article>
+
+        <article class="glass-card project-card">
+          <div class="project-visual visual-blue">
+            <i class="fa-solid fa-hospital-user"></i>
+            <span class="project-number">02</span>
+          </div>
+          <div class="project-body">
+            <span class="project-type">DATABASE PROJECT</span>
+            <h3>Blood Bank Management</h3>
+            <p>A database project concept for organizing donor details,
+              blood groups, blood stock, and blood requests.</p>
+            <div class="tag-list">
+              <span class="tag">Database</span><span class="tag">SQL</span>
+              <span class="tag">Web Technology</span>
+            </div>
+            <a href="#contact" class="project-link">Discuss this project
+              <i class="fa-solid fa-arrow-up-right-from-square"></i>
+            </a>
+          </div>
+        </article>
+
+        <article class="glass-card project-card">
+          <div class="project-visual visual-pink">
+            <i class="fa-solid fa-graduation-cap"></i>
+            <span class="project-number">03</span>
+          </div>
+          <div class="project-body">
+            <span class="project-type">WEB APPLICATION</span>
+            <h3>Student Information System</h3>
+            <p>A web application concept to organize student profiles,
+              academic information, and records.</p>
+            <div class="tag-list">
+              <span class="tag">HTML</span><span class="tag">JavaScript</span>
+              <span class="tag">Database</span>
+            </div>
+            <a href="#contact" class="project-link">Discuss this project
+              <i class="fa-solid fa-arrow-up-right-from-square"></i>
+            </a>
+          </div>
+        </article>
+      </div>
+      <p class="note">The project cards are examples. Replace them with projects you have actually completed.</p>
+    </section>
+
+    <!-- CONTACT -->
+    <section class="section container" id="contact">
+      <div class="section-heading">
+        <p class="eyebrow">LET'S CONNECT</p>
+        <h2>Get In <span class="gradient-text">Touch</span></h2>
+        <p>Have a question or opportunity? Send me a message.</p>
+      </div>
+
+      <div class="contact-grid">
+        <div class="contact-info">
+          <div class="glass-card contact-intro">
+            <div class="icon-box"><i class="fa-regular fa-paper-plane"></i></div>
+            <h3>Let's talk!</h3>
+            <p>I am always interested in learning, collaborating on projects,
+              and connecting with people in technology.</p>
+          </div>
+
+          <a class="contact-method glass-card"
+             href="mailto:sanjanasd666@gmail.com">
+            <span class="contact-method-icon"><i class="fa-regular fa-envelope"></i></span>
+            <span><small>Email me</small><strong>sanjanasd666@gmail.com</strong></span>
+            <i class="fa-solid fa-arrow-up-right-from-square method-arrow"></i>
+          </a>
+
+          <a class="contact-method glass-card" href="tel:+918762200987">
+            <span class="contact-method-icon"><i class="fa-solid fa-phone"></i></span>
+            <span><small>Call me</small><strong>+91 87622 00987</strong></span>
+            <i class="fa-solid fa-arrow-up-right-from-square method-arrow"></i>
+          </a>
+
+          <div class="contact-method glass-card">
+            <span class="contact-method-icon"><i class="fa-solid fa-location-dot"></i></span>
+            <span><small>Based in</small><strong>Mandya, Karnataka, India</strong></span>
+          </div>
+        </div>
+
+        <form class="glass-card contact-form" id="contactForm">
+          <div class="form-row">
+            <div class="form-group">
+              <label for="name">Your Name</label>
+              <input type="text" id="name" name="name"
+                placeholder="Enter your name" required maxlength="100">
+            </div>
+            <div class="form-group">
+              <label for="email">Your Email</label>
+              <input type="email" id="email" name="email"
+                placeholder="you@example.com" required maxlength="254">
+            </div>
+          </div>
+
+          <div class="form-group">
+            <label for="subject">Subject</label>
+            <input type="text" id="subject" name="subject"
+              placeholder="What is this regarding?" required maxlength="150">
+          </div>
+
+          <div class="form-group">
+            <label for="message">Your Message</label>
+            <textarea id="message" name="message" rows="5"
+              placeholder="Write your message here..." required maxlength="5000"></textarea>
+          </div>
+
+          <button type="submit" class="btn btn-primary submit-btn" id="submitBtn">
+            Send Message <i class="fa-solid fa-paper-plane"></i>
+          </button>
+          <p id="formStatus" class="form-status" role="status" aria-live="polite"></p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-inner">
+      <a href="#home" class="logo">S<span>.</span>Sanjana</a>
+      <p>Designed and built with <i class="fa-solid fa-heart"></i> by Sanjana S.D</p>
+      <a href="#home" class="back-top" aria-label="Back to top">
+        <i class="fa-solid fa-arrow-up"></i>
+      </a>
+    </div>
+    <div class="copyright">
+      &copy; <span id="currentYear"></span> Sanjana S.D. All rights reserved.
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
